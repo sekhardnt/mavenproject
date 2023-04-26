@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="sekhar.samplepr.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="root_password@gmail.com"/>
+    <parameter name="username" value="root_user@gmail.com"/>
+    <classes>
+      <class name="sekhar.samplepr.task1">
+        <methods>
+          <include name="OpeningBrowser"/>
+          <include name="TC4"/>
+          <include name="TC5"/>
+          <include name="TC3"/>
+        </methods>
+      </class> <!-- sekhar.samplepr.task1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

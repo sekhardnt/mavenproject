@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+	<listeners>
+		  <listener class-name="sekhar.samplepr.Listeners"/>
+	  </listeners>
+  <test name="Test">
+	  
+	  <parameter name="username" value="root_user@gmail.com"/>
+	  <parameter name="password" value="root_password@gmail.com"/>
+    <classes>
+ 	  <class name="sekhar.samplepr.task1"/>
+<!--      <class name="sekhar.samplepr.TestNg"/>-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
